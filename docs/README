@@ -1,0 +1,29 @@
+= AfgnSms
+
+  http://rubyforge.org/projects/afgnsms/
+
+== Description
+
+The AfgnSms library is used for send SMS messages.
+But, before you use, you must have an account of Message Media(米瑟奇媒體).
+The link of Message Media(米瑟奇媒體): http://www.message.com.tw
+
+== Dependencies
+
+* ruby 1.8.7
+* cgi
+* net/http
+
+== Examples
+
+Please read the file named: EXAMPLE
+
+== Authors
+
+Copyright (c) 2016 by Patrick Su (afgnsu@gmail.com)
+
+This library coded with Ruby!!
+
+== License
+
+This library is distributed under the WTF Publice License v2. Please read the LICENSE file.

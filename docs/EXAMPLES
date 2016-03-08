@@ -1,0 +1,18 @@
+= AfgnSms 範例
+
+1.記得先申請米瑟奇媒體的帳號 => http://www.message.com.tw
+2.如果是 Rails 2.3，請把 afgn_sms.rb 放到 /lib/ 目錄下。
+
+== 發送簡訊
+
+  sms = SMS.new("username", "password")
+  msg = %q|簡訊測試|
+  sms.sendSMS("0987654321", msg)
+  sms.sendSMS("0987-654321", msg)
+  sms.sendSMS("0987-654-321", msg)
+
+== 查詢剩餘點數
+
+  sms = AfgnSms.new("username", "password")
+  sms.querySMS  => 回傳剩餘點數
+
