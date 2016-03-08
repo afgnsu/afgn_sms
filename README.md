@@ -1,4 +1,4 @@
-# afgn_sms (用米瑟奇媒體發送簡訊)
+# afgn_sms (用米瑟奇媒體發送簡訊) - 蘇介吾 105/03/04
 
 http://www.message.com.tw
 
