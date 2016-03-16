@@ -15,10 +15,11 @@ http://www.message.com.tw
 6. gem i pry -v 0.9.7
 7. gem i pry-rails -v 0.2.0
 8. gem i afgn_sms
-9. rails sms
+9. rails sms  #建立新專案 sms
 10. cd sms
-11. pry -r ./config/environment
-12. require 'afgn_sms'
-13. m = AfgnSms.new('米瑟奇帳號','米瑟奇密碼')  #登入米瑟奇簡訊
-14. m.querySMS  #查詢剩餘點數
-15. m.sendSMS('手機號碼','簡訊文字')  #發送簡訊
+11. vi config/environment.rb 倒數第二行加入 config.gem 'afgn_sms'
+12. pry -r ./config/environment
+13. require 'afgn_sms'
+14. m = AfgnSms.new('米瑟奇帳號','米瑟奇密碼')  #登入米瑟奇簡訊
+15. m.querySMS  #查詢剩餘點數
+16. m.sendSMS('手機號碼','簡訊文字')  #發送簡訊
